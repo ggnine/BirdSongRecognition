@@ -1,3 +1,16 @@
+# macOS
+.DS_Store
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model weights, cached spectrograms, data and outputs
 *.pth
-
-
+*.npy
+np/
+*.mp3
+*.wav
+submission.csv
+myfile*.txt
